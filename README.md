@@ -1,13 +1,13 @@
 # babel7-ex
 
-I was having trouble running code that had been transcompiled vie Babel 7. The issue and solution is document [here](https://stackoverflow.com/questions/54871997/add-is-not-a-function-when-using-babel). In short:
+I was having trouble running code that had been transcompiled via Babel 7. The issue and solution is documented [here](https://stackoverflow.com/questions/54871997/add-is-not-a-function-when-using-babel). In short:
 **This doesn't work**
 ```js
 var add = require('./lib/add')
 
 console.log(add(1,3))
 ```
-**Adding `.default` soleves the issue**
+**Adding `.default` solves the issue**
 ```js
 var add = require('./lib/add').default
 
@@ -25,7 +25,6 @@ cd babel7-ex
 npm i
 node test.js
 ```
-
 
 ## The below is already in stackoverflow, but I'll leave it here for reference
 
