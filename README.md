@@ -20,7 +20,10 @@ There is a good explanation in [Misunderstanding ES6 Modules, Upgrading Babel, T
 
 ## Use
 ```js
-
+git clone https://github.com/klequis/babel7-ex.git
+cd babel7-ex
+npm i
+node test.js
 ```
 
 
