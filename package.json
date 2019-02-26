@@ -1,0 +1,17 @@
+{
+  "name": "@klequis/babel7-ex",
+  "version": "0.0.1",
+  "description": "example of using Babel 7",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir lib"
+  },
+  "keywords": ["babel", "babel 7", "NodeJs"],
+  "author": "klequis",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.3",
+    "@babel/preset-env": "^7.3.1"
+  }
+}

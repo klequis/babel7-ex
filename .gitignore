@@ -1,0 +1,15 @@
+.idea
+.vscode
+node_modules
+npm-debug.log*
+yarn-error.log*
+tmp
+dist
+.envrc
+docs.json
+.idea
+.vscode
+.nyc_output
+coverage
+lib/
+.DS_STORE
